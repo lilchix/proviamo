@@ -7,17 +7,19 @@ body {
 header {
   background-color: #6F1D1B;
   padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar__logo img {
-  max-width: 50px; /* Modifica la larghezza massima del logo */
-  max-height: 50px; /* Modifica l'altezza massima del logo */
-  margin: 0 auto; /* Aggiungi questa regola per centrare il logo */
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .navbar__cart img {
-  max-width: 30px; /* Modifica la larghezza massima dell'icona del carrello */
-  max-height: 30px; /* Modifica l'altezza massima dell'icona del carrello */
+  max-width: 30px;
+  max-height: 30px;
 }
 
 #menu-bar {
