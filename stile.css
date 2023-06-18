@@ -10,12 +10,13 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: center; /* Aggiunto per posizionare il logo al centro */
+  justify-content: space-between; /* Aggiunto per separare il logo e il carrello */
   align-items: center;
 }
 
 .navbar__logo img {
   max-width: 130px;
+  margin-right: auto; /* Aggiunto per spostare il logo a destra */
 }
 
 .navbar__cart img {
