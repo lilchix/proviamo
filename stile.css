@@ -1,3 +1,4 @@
+/* Header */
 header {
   background-color: #6F1D1B;
   padding: 10px 0;
@@ -136,16 +137,16 @@ body {
   height: 80px;
 }
 
-.navbar__logo {
+.navbar-logo {
   flex-grow: 1;
   text-align: center;
 }
 
-.navbar__logo img {
+.navbar-logo img {
   max-width: 130px;
 }
 
-.navbar__cart img {
+.navbar-cart img {
   max-width: 30px;
   margin-right: 80px;
 }
