@@ -1,6 +1,5 @@
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper(".mySwiper", {
   pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
+    el: ".swiper-pagination",
   },
 });
