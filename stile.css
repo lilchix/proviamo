@@ -10,7 +10,7 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Aggiunto per posizionare il logo al centro */
   align-items: center;
 }
 
@@ -114,3 +114,5 @@ header {
 .change-bg {
   width: 520px;
   height: 460px;
+  transform: translate(-60%,-30%);
+}
