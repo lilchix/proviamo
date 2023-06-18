@@ -12,6 +12,7 @@ header {
 .navbar__logo img {
   max-width: 50px; /* Modifica la larghezza massima del logo */
   max-height: 50px; /* Modifica l'altezza massima del logo */
+  margin: 0 auto; /* Aggiungi questa regola per centrare il logo */
 }
 
 .navbar__cart img {
@@ -32,6 +33,10 @@ header {
 /* Menu */
 #menu {
   z-index: 2;
+}
+
+#menu-bar {
+  cursor: pointer;
 }
 
 .nav {
