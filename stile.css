@@ -1,74 +1,136 @@
-body {
-  margin: 0;
+
+
+.btn-primary {
+  background-color:#8b4513 !important;
+  border-color: #8b4513 !important;
+  }
+  
+
+  .swiper {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 740px;
+    object-fit: cover;
+  }
+
+  .style
+  .card-img-top:hover {
+    opacity: 0.5;    
+  }
+
+
+  #col-1 {
+    background-color: #fff;
+    width: 100%;
+    height: 700px;
+    padding-top: 200px;
+    margin-left: 5%;
+  }
+
+  #col-2 {
+    background-image: url("https://img.freepik.com/free-photo/female-carpenter-working-studio-with-pencil_23-2148813324.jpg?w=2000&t=st=1686821581~exp=1686822181~hmac=4712cc0dd5b0214486d3da163ecfb0f4d96628bfb4307802d090dcaf5020b754");
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding-top: 250px;
+  } 
+
+  #scopri {
+    color:#ffffff;
+  }
+
+
+  .space {
+    height: 70px;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  .space2 {
+    height: 30px;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  .titolo {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #aboutus {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .hr {
+    color: #8b4513 !important;
+  }
+
+  
+  .info {
+    background-color:#8b4513;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    vertical-align:  center;
+    font-family: Trebuchet MS, sans-serif;
 }
 
-.navbar {
-  background-color: brown;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+#iconimagesbot {
+    font-size: 25px !important;
+    vertical-align:  bottom;
+    margin: 0 10px;
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
+#iconimagesbot2 {
+    font-size: 27px !important;
+    vertical-align: bottom;
+    margin: 0 10px;
 }
 
-.navbar ul li {
-  margin-left: 15px;
+#iconimagesbot3 {
+    font-size: 27px !important;
+    vertical-align: bottom;
+    margin: 0 10px;
 }
 
-.navbar ul li:first-child {
-  margin-left: 0;
+.infotext {
+     vertical-align: center;
+     display: inline;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+.social {
+    width: 30px;
+    vertical-align: center;
+    margin: 5px;
 }
 
-.navbar ul li a {
-  text-decoration: none;
-  color: #333;
-  padding: 5px;
+#map {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
 }
 
-.navbar .logo {
-  font-weight: bold;
-}
-
-.navbar .cart {
-  display: flex;
-  align-items: center;
-}
-
-.navbar .cart img {
-  height: 20px;
-  margin-right: 5px;
-}
-}
-
-.container {
-  margin: 0;
-  padding: 20px;
-  background-color: green;
-  height: 400px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.text {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.swiper-container {
-  width: 50%;
-  height: 300px; 
-}
-
-.swiper-slide {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%; 
+.footer {
+  background-color: #8b4513 !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
