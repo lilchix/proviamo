@@ -1,40 +1,37 @@
+/* Stile generale */
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Header */
 header {
   background-color: #6F1D1B;
   padding: 10px 0;
 }
 
-/* Menu */
-body {
-  font-family: 'Oswald', sans-serif;
+.navbar__logo img {
+  max-width: 50px; /* Modifica la larghezza massima del logo */
+  max-height: 50px; /* Modifica l'altezza massima del logo */
 }
 
-#menu {
-  z-index: 2;
-  position: relative; /* Aggiunto per posizionamento corretto */
+.navbar__cart img {
+  max-width: 30px; /* Modifica la larghezza massima dell'icona del carrello */
+  max-height: 30px; /* Modifica l'altezza massima dell'icona del carrello */
 }
 
 #menu-bar {
-  width: 45px;
-  height: 40px;
-  margin: 30px 20px 20px 0; /* Modificato per allineamento a destra */
-  cursor: pointer;
+  width: 30px; /* Modifica la larghezza della barra del menu */
+  height: 25px; /* Modifica l'altezza della barra del menu */
+  margin: 15px 0 10px 10px; /* Modifica il margine della barra del menu */
 }
 
 .bar {
-  height: 5px;
-  width: 100%;
-  background-color: white;
-  display: block;
-  border-radius: 5px;
-  transition: 0.3s ease;
+  height: 3px; /* Modifica l'altezza delle barre del menu */
 }
 
-#bar1 {
-  transform: translateY(-4px);
-}
-
-#bar3 {
-  transform: translateY(4px);
+/* Menu */
+#menu {
+  z-index: 2;
 }
 
 .nav {
@@ -72,7 +69,7 @@ body {
   z-index: 1;
   width: 0;
   height: 0;
-  margin: 30px 20px 20px 0; /* Modificato per allineamento a destra */
+  margin: 30px 0 20px 20px;
   background: radial-gradient(circle, #DC052D, #DC052D);
   border-radius: 50%;
   transition: 0.3s ease;
