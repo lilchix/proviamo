@@ -1,10 +1,12 @@
 function menuOnClick() {
+  // Aggiunge o rimuove la classe "change" per gli elementi corrispondenti
   document.getElementById("menu-bar").classList.toggle("change");
   document.getElementById("nav").classList.toggle("change");
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
 
 function aggiungiAlCarrello() {
+  // Incrementa il numero nel carrello
   var carrello = document.getElementById("carrello");
   var numero = parseInt(carrello.textContent);
   numero++;
@@ -12,6 +14,7 @@ function aggiungiAlCarrello() {
 }
 
 function rimuoviDalCarrello() {
+  // Decrementa il numero nel carrello
   var carrello = document.getElementById("carrello");
   var numero = parseInt(carrello.textContent);
   numero--;
@@ -19,6 +22,7 @@ function rimuoviDalCarrello() {
 }
 
 function svuotaCarrello() {
+  // Resetta il numero nel carrello a zero
   var carrello = document.getElementById("carrello");
   carrello.textContent = 0;
 }
