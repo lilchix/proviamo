@@ -222,52 +222,59 @@ body {
   color: #8b4513 !important;
 }
 
-.info {
-  background-color: #8b4513;
+footer {
+  background-color: black;
   color: white;
-  padding: 10px 20px;
-  text-align: center;
-  vertical-align: center;
-  font-family: Oswald;
-}
-
-#iconimagesbot {
-  font-size: 25px !important;
-  vertical-align: bottom;
-  margin: 0 10px;
-}
-
-#iconimagesbot2 {
-  font-size: 27px !important;
-  vertical-align: bottom;
-  margin: 0 10px;
-}
-
-#iconimagesbot3 {
-  font-size: 27px !important;
-  vertical-align: bottom;
-  margin: 0 10px;
-}
-
-.infotext {
-  vertical-align: center;
-  display: inline;
-  font-family: Oswald;
-}
-
-.social {
-  width: 30px;
-  vertical-align: center;
-  margin: 5px;
-}
-
-#map {
   width: 100%;
-  height: 200px;
-  margin-top: 50px;
+  margin-top: 30px;
+  font-size:12
+}
+#info {
+  font-size: 12px;
+  margin-bottom:0;
+  text-align:center;
 }
 
-.footer {
-  background-color: #8b4513 !important;
-  font-family: Oswald;
+#container{
+  height:150px;
+}
+.scuole{
+  text-align: center; 
+  font-size:24px; 
+  font-style:italic;
+  color:white
+}
+.top {
+  color: cyan;
+  background-color: black;
+  border-radius: 40px;
+  pudding:0px 0px 5px 5px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  text-align: center;
+}
+#freccina{
+  cursor: pointer;
+}
+#bottonecookie {
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#cookie{
+  color: white;
+  font-size:15px;
+  background-color: black;
+  margin: 26px ;
+  width: 200px;
+  padding: 15px;
+  display:none;
+}
+#chiusura{
+  font-size: 15px;
+  margin-left: 160px;
 }
