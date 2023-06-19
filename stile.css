@@ -186,6 +186,8 @@ body {
   height: 650px;
   text-align: center;
   padding-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #scopri {
@@ -206,7 +208,7 @@ body {
 
 .titolo {
   text-align: center;
-  font-family: Chaloops;
+  font-family: Oswald;
 }
 
 #aboutus {
