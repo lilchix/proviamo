@@ -185,6 +185,7 @@ body {
   width: 300px;
   height: 650px;
   text-align: center;
+  text-color: white;
   padding-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
@@ -213,6 +214,8 @@ body {
 
 #aboutus {
   font-family: Oswald;
+  background-color: white;
+  text-color: brown;
 }
 
 .hr {
@@ -225,7 +228,7 @@ body {
   padding: 10px 20px;
   text-align: center;
   vertical-align: center;
-  font-family: Trebuchet MS, sans-serif;
+  font-family: Oswald;
 }
 
 #iconimagesbot {
@@ -266,5 +269,5 @@ body {
 
 .footer {
   background-color: #8b4513 !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Oswald;
 }
