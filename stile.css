@@ -184,6 +184,7 @@ body {
   background-color: brown;
   width: 600px;
   height: 650px;
+  text-width: 30px;
   text-align: center;
   padding-top: 250px;
 }
@@ -206,11 +207,11 @@ body {
 
 .titolo {
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Chaloops;
 }
 
 #aboutus {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Oswald;
 }
 
 .hr {
@@ -247,7 +248,7 @@ body {
 .infotext {
   vertical-align: center;
   display: inline;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Oswald;
 }
 
 .social {
