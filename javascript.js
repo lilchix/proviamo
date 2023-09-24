@@ -1,42 +1,47 @@
-function menuOnClick() {
-  document.getElementById("menu-bar").classList.toggle("change");
-  document.getElementById("nav").classList.toggle("change");
-  document.getElementById("menu-bg").classList.toggle("change-bg");
-} 
+$(document).ready(function() {
+$('html').on('DOMMouseScroll mousewheel', function (e) {
+  if(e.originalEvent.detail > 0 || e.originalEvent.wheelDelta < 0) { //alternative options for wheelData: wheelDeltaX & wheelDeltaY
+    //scroll down
+    console.log('Down');
+    $( "#header-nav" ).addClass( "hide-nav-bar" );
+  } else {
+    //scroll up
+    console.log('Up');
+    $( "#header-nav" ).removeClass( "hide-nav-bar" );
+  }
+  //prevent page fom scrolling
+  //return false;
+});
 
-function aggiungiAlCarrello() {
-  var carrello = document.getElementById("carrello");
-  var numero = parseInt(carrello.innerHTML);
-  numero++;
-  carrello.innerHTML = numero;
-}
-function rimuoviDalCarrello() {
-  var carrello = document.getElementById("carrello");
-  var numero = parseInt(carrello.innerHTML);
-  numero--;
-  carrello.innerHTML = numero;
-}
-function svuotaCarrello() {
-  var carrello = document.getElementById("carrello");
-  carrello.innerHTML = 0;
-}
+// On click show menu on small screen
 
+  $('body').addClass('js');
+  var $menu = $('#menu'),
+    $menulink = $('.menu-link');
+  
+$menulink.click(function() {
+  $menulink.toggleClass('active');
+  $menu.toggleClass('active');
+  return false;
+});
 
+var toggled = 0;
 
-/*swiper*/
-var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 30,
-  centeredSlides: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-},)
+$('.menu-link').click(function(){
+  if(toggled == 0){
+  $('.bar3').stop().transition({rotate: "45", "margin-top": "13px"});
+  $('.bar2').stop().transition({opacity: "0"}, "fast");
+  $('.bar1').stop().transition({rotate: "-45", "margin-top": "13px"});
+    toggled++;
+    console.log("toggled down")
+  }
+  else{
+    
+  $('.bar3').stop().transition({rotate: "+=135", "margin-top": "3px"});
+  $('.bar2').transition({opacity: "1"}, "fast");
+  $('.bar1').stop().transition({rotate: "-=135", "margin-top": "23px"});
+  toggled--;
+   console.log("Togged Up")
+  }
+});
+  });
